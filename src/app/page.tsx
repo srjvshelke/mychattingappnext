@@ -1,10 +1,14 @@
-import Image from "next/image";
+
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main >
-    hello suraj
-    </main>
+
+    <div >
+      <h1 className="text-fuchsia-500">
+        hello
+      </h1>
+    </div>
+
   );
 }
